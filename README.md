@@ -25,23 +25,6 @@ docker compose up --build
 - Users service (via gateway): http://localhost:8080/api/users/profile
 - Payments service (via gateway): http://localhost:8080/api/payments/charge
 
-## Auth
-Get a demo token:
-```bash
-curl -X POST http://localhost:8080/auth/token -H "Content-Type: application/json"   -d '{"username":"rishik","roles":["USER"]}'
-```
-Use the returned token:
-```bash
-curl http://localhost:8080/api/users/profile -H "Authorization: Bearer <TOKEN>"
-```
-
-## Rate limiting
-Per-principal (username) limiting via Redis. If not authenticated, falls back to IP-based key.
-
-## Circuit breaker
-Route-level circuit breakers with fallback endpoints:
-- `/api/users/**` -> fallback `/fallback/users`
-- `/api/payments/**` -> fallback `/fallback/payments`
 
 ## Notes
 - Java 17, Spring Boot 3.2.x, Spring Cloud 2023.0.x
