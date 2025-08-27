@@ -1,4 +1,4 @@
-# Enterprise API Gateway (Spring Boot + Spring Cloud Gateway)
+# Spring Boot API Gateway (Spring Boot + Spring Cloud Gateway)
 
 A production-style **API Gateway** with JWT auth, per-user **rate limiting** via Redis,
 **circuit breakers** with Resilience4j, centralized **metrics** (Prometheus) and a
