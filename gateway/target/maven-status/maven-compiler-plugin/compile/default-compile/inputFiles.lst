@@ -1,0 +1,6 @@
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/rate/UserKeyResolver.java
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/security/SecurityConfig.java
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/GatewayApplication.java
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/web/AuthController.java
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/web/FallbackController.java
+/Users/rishikdurvasula/Downloads/enterprise-api-gateway-fixed2/gateway/src/main/java/com/example/gateway/security/JwtService.java
